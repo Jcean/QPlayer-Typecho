@@ -64,7 +64,7 @@ function bgChange() {
 	for(var i=0; i<lis.length; i+=2)
 	lis[i].style.background = "rgba(246, 246, 246, 0.5)";
 }
-window.onload = bgChange;
+bgChange();
 ', _t('自定义JS'),'');
         $form->addInput($js);
 

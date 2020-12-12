@@ -2,8 +2,8 @@
 底部悬浮音乐播放器 QPlayer For Typecho
 
 ## 界面
-![QPlayer](https://github.com/Jesus0s/QPlayer-Typecho/raw/master/screenshot/QPlayer.png)
-![QPlayer-Config](https://github.com/Jesus0s/QPlayer-Typecho/raw/master/screenshot/QPlayer-Config.png)
+![QPlayer](https://cdn.jsdelivr.net/gh/Jesus0s/BlogStatic@latest/usr/uploads/2020/12/1860625767.png)
+![QPlayer-Config](https://cdn.jsdelivr.net/gh/Jesus0s/BlogStatic@latest/usr/uploads/2020/12/1705662815.png)
 
 ## 介绍
   1. 一款简洁小巧的Typecho底部悬浮音乐播放器插件

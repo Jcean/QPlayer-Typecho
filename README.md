@@ -1,30 +1,38 @@
-## QPlayer-Typecho-Plugin
-一款简洁小巧的Typecho底部悬浮音乐播放器插件. 支持网易云音乐解析。
+# QPlayer-Typecho
+底部悬浮音乐播放器 QPlayer For Typecho
 
-## 更新
-2020-05-02 Jesus0s修复网易云解析接口
+## 界面
+![QPlayer](https://cdn.jsdelivr.net/gh/Jesus0s/BlogStatic@latest/usr/uploads/2020/12/1860625767.png)
+![QPlayer-Config](https://cdn.jsdelivr.net/gh/Jesus0s/BlogStatic@latest/usr/uploads/2020/12/1705662815.png)
 
-## 使用方法
-Download ZIP, 解压，将 QPlayer-Typecho-Plugin-master 重命名为 QPlayer ，之后上传到你博客中的 /usr/plugins 目录，在后台启用即可
+## 介绍
+  1. 一款简洁小巧的Typecho底部悬浮音乐播放器插件
+  2. 支持网易云音乐解析
+  3. 自动播放
 
-插件后台配置歌曲格式: 
+## 声明
+本作品仅供个人学习研究使用，请勿将其用作商业用途。
 
-{title:"xxx", artist:"xxx", cover:"http:xxxx", mp3:"http:xxxx"} ，每个歌曲之间用英文,隔开。
-**请保证歌曲列表里至少有一首歌**！
+## 安装
+  1. 在GitHub页面右上角点击 Download ZIP 下载压缩包
+  2. 上传到 /usr/plugins 目录
+  3. **修改文件夹名为 QPlayer**
+  4. 后台启用插件
 
-## 添加网易云音乐(需主机支持curl扩展)
-去网易云音乐官网找到音乐id,支持 **歌单|艺人|专辑|单曲** 类型的id解析**(单曲解析需国内服务器)**，billboard等排行榜也支持(实质就是歌单)。
+## 使用
+后台编辑本插件设置自动播放、封面旋转。
+歌曲列表需要解析后设置
 
-更多详细说明请参见插件后台。
+## 添加网易云音乐(需主机支持CURL扩展)
+去网易云音乐官网找到音乐ID,支持 **歌单|艺人|专辑|单曲** 类型的ID解析**(单曲解析需国内服务器)**,
+billboard等排行榜也支持(实质就是歌单)。
 
+## FAQ
+更多问题可以通过 issue 页面提交，或者通过 留言、邮件向我反馈
 
-建议网站加入PJAX来实现跨页面播放音乐
+## LICENSE
+DataGuard-Typecho is under the MIT license.
 
-- [PJAX 实现无刷新加载网页][3]
-
-- [一句代码为typecho博客加上pjax技术][4]
-
-
-
- [3]: https://32mb.space/archives/7.html
- [4]: http://www.ihewro.com/archives/354/
+[GitHub项目地址](https://github.com/Jesus0s/QPlayer-Typecho-Plugin)
+[Jrohy原版](https://github.com/Jrohy/QPlayer-Typecho-Plugin)
+[MoLeft修复版](https://github.com/MoLeft/QPlayer-Typecho-Plugin)

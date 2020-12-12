@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<title>网易云音乐id解析</title>
+	<title>网易云音乐ID解析</title>
     <style>
         #title {
             padding: 2px;
@@ -108,9 +108,9 @@
 </head>
 <body>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
-<div id="title"><h1>网易云音乐id解析</h1></div>
+<div id="title"><h1>网易云音乐ID解析</h1></div>
 <div id="radiogroup">
-id类型:
+ID类型:
 <input type="radio" name="type" class="mgr" value="collect"  <?php if ($_POST['type']=="collect" || $_POST['type'] == null) echo "checked";?>>歌单
 <input type="radio" name="type" class="mgr" value="album" <?php if ($_POST['type']=="album") echo "checked";?>>专辑
 <input type="radio" name="type" class="mgr" value="artist" <?php if ($_POST['type']=="artist") echo "checked";?>>艺人
@@ -118,7 +118,7 @@ id类型:
 </div>
 <br>
 <div id="inputform">
-id输入:&nbsp;<input type="text" id="input" placeholder="多个id用英文,分隔开" name="id" value="<?php echo $_POST["id"] ?>">
+ID输入:&nbsp;<input type="text" id="input" placeholder="多个ID用英文,分隔开" name="id" value="<?php echo $_POST["id"] ?>">
 <input type="submit" id="submit" value="提交">
 </div>
 </form> 

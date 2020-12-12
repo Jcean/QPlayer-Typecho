@@ -1,11 +1,12 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 /**
- * 简洁美观非常Qの悬浮音乐播放器,MoLeft修复网易云解析接口,Jesus0s修复网易云音乐https
- * 
+ * Typecho 底部悬浮音乐播放器
+ *
  * @package QPlayer
  * @author Jrohy,MoLeft,Jesus0s
- * @version 1.4
- * @link https://www.Jesus0s.com
+ * @version 1.4.1
+ * @link https://www.jesus0s.com
  */
 class QPlayer_Plugin implements Typecho_Plugin_Interface
 {
@@ -16,8 +17,7 @@ class QPlayer_Plugin implements Typecho_Plugin_Interface
      * @return void
      * @throws Typecho_Plugin_Exception
      */
-    public static function activate()
-    {
+    public static function activate() {
         Typecho_Plugin::factory('Widget_Archive')->header = array('QPlayer_Plugin', 'header');
         Typecho_Plugin::factory('Widget_Archive')->footer = array('QPlayer_Plugin', 'footer');
     }
@@ -39,7 +39,7 @@ class QPlayer_Plugin implements Typecho_Plugin_Interface
      * @param Typecho_Widget_Helper_Form $form 配置面板
      * @return void
      */
-    public static function config(Typecho_Widget_Helper_Form $form){
+    public static function config(Typecho_Widget_Helper_Form $form) {
 
         $autoPlay = new Typecho_Widget_Helper_Form_Element_Radio(
         'autoPlay', array('0'=> '关闭', '1'=> '开启'), 0, '自动播放',
@@ -92,7 +92,7 @@ bgChange();
      * @access public
      * @return void
      */
-    public static function header(){
+    public static function header() {
         $cssUrl = Helper::options()->pluginUrl . '/QPlayer/css/player.css';
         echo '<link rel="stylesheet" href="' . $cssUrl . '">';
     }
@@ -102,7 +102,7 @@ bgChange();
      * @access public
      * @return void
      */
-    public static function footer(){
+    public static function footer() {
         $options = Typecho_Widget::widget('Widget_Options')->plugin('QPlayer'); 
 		echo '
 			<div id="QPlayer" style="z-index:2016">

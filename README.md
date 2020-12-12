@@ -34,9 +34,9 @@ billboard等排行榜也支持(实质就是歌单)。
 ## LICENSE
 DataGuard-Typecho is under the MIT license.
 
-[GitHub项目地址](https://github.com/Jesus0s/QPlayer-Typecho)
-
 [Gitee项目地址](https://gitee.com/Jesus0s/QPlayer-Typecho)
+
+[GitHub项目地址](https://github.com/Jesus0s/QPlayer-Typecho)
 
 [Jrohy原版](https://github.com/Jrohy/QPlayer-Typecho-Plugin)
 

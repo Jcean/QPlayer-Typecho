@@ -4,9 +4,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  * Typecho 底部悬浮音乐播放器
  *
  * @package QPlayer
- * @author Jrohy,MoLeft,Jesus0s
+ * @author Jrohy,MoLeft,Jcean
  * @version 1.4.1
- * @link https://www.jesus0s.com
+ * @link https://www.jcean.com
  */
 class QPlayer_Plugin implements Typecho_Plugin_Interface
 {

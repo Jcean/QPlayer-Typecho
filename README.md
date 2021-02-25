@@ -3,8 +3,8 @@
 底部悬浮音乐播放器 QPlayer For Typecho
 
 ## 界面
-![QPlayer](https://cdn.jsdelivr.net/gh/Jesus0s/BlogStatic@latest/usr/uploads/2020/12/1860625767.png)
-![QPlayer-Config](https://cdn.jsdelivr.net/gh/Jesus0s/BlogStatic@latest/usr/uploads/2020/12/1705662815.png)
+![QPlayer](https://cdn.jsdelivr.net/gh/Jcean/BlogStatic@latest/usr/uploads/2020/12/1860625767.png)
+![QPlayer-Config](https://cdn.jsdelivr.net/gh/Jcean/BlogStatic@latest/usr/uploads/2020/12/1705662815.png)
 
 ## 介绍
   1. 一款简洁小巧的Typecho底部悬浮音乐播放器插件
@@ -34,9 +34,9 @@ billboard等排行榜也支持(实质就是歌单)。
 ## LICENSE
 DataGuard-Typecho is under the MIT license.
 
-[Gitee项目地址](https://gitee.com/Jesus0s/QPlayer-Typecho)
+[Gitee项目地址](https://gitee.com/Jcean/QPlayer-Typecho)
 
-[GitHub项目地址](https://github.com/Jesus0s/QPlayer-Typecho)
+[GitHub项目地址](https://github.com/Jcean/QPlayer-Typecho)
 
 [Jrohy原版](https://github.com/Jrohy/QPlayer-Typecho-Plugin)
 

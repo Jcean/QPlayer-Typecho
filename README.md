@@ -32,7 +32,7 @@ billboard等排行榜也支持(实质就是歌单)。
 更多问题可以通过 issue 页面提交，或者通过 留言、邮件向我反馈
 
 ## LICENSE
-DataGuard-Typecho is under the MIT license.
+QPlayer-Typecho is under the MIT license.
 
 [Gitee项目地址](https://gitee.com/Jcean/QPlayer-Typecho)
 
